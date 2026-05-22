@@ -38,3 +38,5 @@ default = ["std"]
 nightly = []
 debug-transcript = ["hex"]
 std = ["rand_core/std", "byteorder/std"]
+# Accept `&[u8]` labels instead of the default `&'static [u8]`.
+dynamic-labels = []
